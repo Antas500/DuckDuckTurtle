@@ -1,7 +1,9 @@
 body {
     text-align:center;
 }
+h1{
+    font-size: 30vw;
+}
 .SectionOne {
-    min-height: 100vh;
     padding-top: 30vh;
 }
