@@ -2,9 +2,18 @@ body {
     text-align:center;
 }
 h1{
-    font-size: 30vw;
+    font-size: 20vw;
     margin: 0px;
 }
 .SectionOne {
     padding-top: 30vh;
+    padding-bottom: 30vh;
+}
+.SectionTwo {
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+}
+.SectionThree {
+    padding-top: 30vh;
+    padding-bottom: 30vh;
 }
