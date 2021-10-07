@@ -1,6 +1,15 @@
 html, body {
   height: 100vh;
   overflow: hidden;
+  color: #222;
+  background: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background: #121212;
+  }
 }
 
 .innerBody {
