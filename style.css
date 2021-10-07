@@ -3,7 +3,7 @@ html, body {
   overflow: hidden;
 }
 
-.inner-body {
+.innerBody {
   overflow: scroll;
   height: 100vh;
   scroll-snap-type: mandatory;
@@ -15,4 +15,10 @@ html, body {
   height: 100vh;
   scroll-snap-align: start;
   position: relative;
+}
+
+.innerSection {
+  padding-top: 30vh;
+  height: 40vh;
+  padding-bottom: 30vh;
 }
