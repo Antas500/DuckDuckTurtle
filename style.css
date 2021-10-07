@@ -13,6 +13,10 @@ html, body {
   }
 }
 
+p {
+    font-size: 5vh;
+}
+
 .innerBody {
   overflow: scroll;
   height: 100vh;
