@@ -1,20 +1,18 @@
-body {
-    text-align:center;
-}
-h1{
-    font-size: 20vw;
-    margin: 0px;
-}
-.Section {
-    padding-top: 30vh;
-    height: 40vh;
-    padding-bottom: 30vh;
+html, body {
+  height: 100vh;
+  overflow: hidden;
 }
 
-body {
+.inner-body {
+  overflow: scroll;
+  height: 100vh;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: y mandatory;
 }
 
 .Section {
+  height: 100vh;
   scroll-snap-align: start;
+  position: relative;
 }
