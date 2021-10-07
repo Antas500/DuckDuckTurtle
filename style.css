@@ -10,3 +10,11 @@ h1{
     height: 40vh;
     padding-bottom: 30vh;
 }
+
+body {
+  scroll-snap-type: y mandatory;
+}
+
+.Section {
+  scroll-snap-align: start;
+}
