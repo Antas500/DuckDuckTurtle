@@ -5,15 +5,8 @@ h1{
     font-size: 20vw;
     margin: 0px;
 }
-.SectionOne {
+.Section {
     padding-top: 30vh;
-    padding-bottom: 30vh;
-}
-.SectionTwo {
-    padding-top: 30vh;
-    padding-bottom: 30vh;
-}
-.SectionThree {
-    padding-top: 30vh;
+    height: 40vh;
     padding-bottom: 30vh;
 }
