@@ -28,6 +28,7 @@ p {
   scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: y mandatory;
   text-align: center;
+  scroll-behavior: smooth;
 }
 
 .Section {
