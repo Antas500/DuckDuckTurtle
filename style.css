@@ -91,7 +91,7 @@ p {
     color: #eee;
     background: #121212;
   }
-	.load-more:before, .load-more:after {
+	.ArrowDown:before, .ArrowDown:after {
 		border-bottom-color: #fff;
 		border-right-color: #fff;
 	}
