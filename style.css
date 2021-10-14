@@ -77,7 +77,7 @@ p {
   width: 40px;
   height: 40px;
 }
-.load-more:before, .load-more:after {
+.ArrowDown:before, .ArrowDown:after {
 		position: absolute;
 		display: block;
 		content: '';
