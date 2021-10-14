@@ -11,6 +11,10 @@ html, body {
     color: #eee;
     background: #121212;
   }
+	.load-more:before, .load-more:after {
+		border-bottom-color: #fff;
+		border-right-color: #fff;
+	}
 }
 
 p {
@@ -83,8 +87,8 @@ p {
 		border-width: 2px;
 		border-style: solid;
 		border-color: transparent;
-		border-bottom-color: #fff;
-		border-right-color: #fff;
+		border-bottom-color: #000;
+		border-right-color: #000;
 		border-radius: 0 0 5px 0;
 		transform: translate(-50%, -50%) rotate(45deg);
 }
