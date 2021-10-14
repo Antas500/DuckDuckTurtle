@@ -6,17 +6,6 @@ html, body {
   margin: 0px;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    color: #eee;
-    background: #121212;
-  }
-	.load-more:before, .load-more:after {
-		border-bottom-color: #fff;
-		border-right-color: #fff;
-	}
-}
-
 p {
     font-size: 5vh;
 }
@@ -92,4 +81,18 @@ p {
 		border-right-color: #000;
 		border-radius: 0 0 5px 0;
 		transform: translate(-50%, -50%) rotate(45deg);
+}
+
+
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background: #121212;
+  }
+	.load-more:before, .load-more:after {
+		border-bottom-color: #fff;
+		border-right-color: #fff;
+	}
 }
