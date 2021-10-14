@@ -58,3 +58,7 @@ p {
             filter:hue-rotate(360deg);
     }
 }
+
+.Section.SectionThree .innerSection img {
+  height: 30vh;
+}
